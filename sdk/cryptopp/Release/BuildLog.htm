@@ -1,0 +1,450 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: cryptlib, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Release\BAT00000B.bat" with contents
+[
+@echo off
+if not exist adhoc.cpp copy "e:\1 gunz astra\source Astra\sdk\cryptopp\adhoc.cpp.proto" adhoc.cpp
+echo: >> adhoc.cpp.copied
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Custom Build Step"
+exit 1
+:VCEnd
+]
+Creating command line ""e:\1 gunz astra\source Astra\sdk\cryptopp\Release\BAT00000B.bat""
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000C.rsp" with contents
+[
+/O2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /FD /EHsc /MT /GS /GR /Yc"pch.h" /Fp".\Release/cryptlib.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /Zi /TP  /Zm400 
+".\pch.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000C.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000D.rsp" with contents
+[
+/O2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /FD /EHsc /MT /GS /GR /Yu"pch.h" /Fp".\Release/cryptlib.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /Zi /TP  /Zm400 
+".\zlib.cpp"
+".\zinflate.cpp"
+".\zdeflate.cpp"
+".\xtrcrypt.cpp"
+".\xtr.cpp"
+".\winpipes.cpp"
+".\whrlpool.cpp"
+".\wake.cpp"
+".\wait.cpp"
+".\vmac.cpp"
+".\twofish.cpp"
+".\ttmac.cpp"
+".\trdlocal.cpp"
+".\tigertab.cpp"
+".\tiger.cpp"
+".\tftables.cpp"
+".\tea.cpp"
+".\strciphr.cpp"
+".\squaretb.cpp"
+".\square.cpp"
+".\sosemanuk.cpp"
+".\socketft.cpp"
+".\skipjack.cpp"
+".\simple.cpp"
+".\sharkbox.cpp"
+".\shark.cpp"
+".\shacal2.cpp"
+".\sha.cpp"
+".\serpent.cpp"
+".\seed.cpp"
+".\seal.cpp"
+".\salsa.cpp"
+".\safer.cpp"
+".\rw.cpp"
+".\rsa.cpp"
+".\rng.cpp"
+".\ripemd.cpp"
+".\rijndael.cpp"
+".\rdtables.cpp"
+".\rc6.cpp"
+".\rc5.cpp"
+".\rc2.cpp"
+".\randpool.cpp"
+".\rabin.cpp"
+".\queue.cpp"
+".\pubkey.cpp"
+".\pssr.cpp"
+".\polynomi.cpp"
+".\pkcspad.cpp"
+".\panama.cpp"
+".\osrng.cpp"
+".\oaep.cpp"
+".\network.cpp"
+".\nbtheory.cpp"
+".\mqv.cpp"
+".\mqueue.cpp"
+".\modes.cpp"
+".\misc.cpp"
+".\md5.cpp"
+".\md4.cpp"
+".\md2.cpp"
+".\marss.cpp"
+".\mars.cpp"
+".\luc.cpp"
+".\integer.cpp"
+".\idea.cpp"
+".\ida.cpp"
+".\hrtimer.cpp"
+".\hmac.cpp"
+".\hex.cpp"
+".\gzip.cpp"
+".\gost.cpp"
+".\gfpcrypt.cpp"
+".\gf2n.cpp"
+".\gf2_32.cpp"
+".\gf256.cpp"
+".\gcm.cpp"
+".\fipstest.cpp"
+".\fips140.cpp"
+".\filters.cpp"
+".\files.cpp"
+".\esign.cpp"
+".\eprecomp.cpp"
+".\emsa2.cpp"
+".\elgamal.cpp"
+".\ecp.cpp"
+".\eccrypto.cpp"
+".\ec2n.cpp"
+".\eax.cpp"
+".\dsa.cpp"
+".\dh2.cpp"
+".\dh.cpp"
+".\dessp.cpp"
+".\des.cpp"
+".\default.cpp"
+".\cryptlib.cpp"
+".\crc.cpp"
+".\cpu.cpp"
+".\cmac.cpp"
+".\channels.cpp"
+".\ccm.cpp"
+".\cbcmac.cpp"
+".\casts.cpp"
+".\cast.cpp"
+".\camellia.cpp"
+".\blumshub.cpp"
+".\blowfish.cpp"
+".\bfinit.cpp"
+".\basecode.cpp"
+".\base64.cpp"
+".\base32.cpp"
+".\authenc.cpp"
+".\asn.cpp"
+".\arc4.cpp"
+".\algparam.cpp"
+".\algebra.cpp"
+".\adler32.cpp"
+".\3way.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000D.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000E.rsp" with contents
+[
+/O2 /D "NDEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /FD /EHsc /MT /GS /GR /Fp".\Release/cryptlib.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /Zi /TP  /Zm400 
+".\iterhash.cpp"
+".\dll.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000E.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000F.rsp" with contents
+[
+/OUT:".\Release\cryptlib.lib" /NOLOGO
+".\release\3way.obj"
+".\release\adler32.obj"
+".\release\algebra.obj"
+".\release\algparam.obj"
+".\release\arc4.obj"
+".\release\asn.obj"
+".\release\authenc.obj"
+".\release\base32.obj"
+".\release\base64.obj"
+".\release\basecode.obj"
+".\release\bfinit.obj"
+".\release\blowfish.obj"
+".\release\blumshub.obj"
+".\release\camellia.obj"
+".\release\cast.obj"
+".\release\casts.obj"
+".\release\cbcmac.obj"
+".\release\ccm.obj"
+".\release\channels.obj"
+".\release\cmac.obj"
+".\release\cpu.obj"
+".\release\crc.obj"
+".\release\cryptlib.obj"
+".\release\default.obj"
+".\release\des.obj"
+".\release\dessp.obj"
+".\release\dh.obj"
+".\release\dh2.obj"
+".\release\dll.obj"
+".\release\dsa.obj"
+".\release\eax.obj"
+".\release\ec2n.obj"
+".\release\eccrypto.obj"
+".\release\ecp.obj"
+".\release\elgamal.obj"
+".\release\emsa2.obj"
+".\release\eprecomp.obj"
+".\release\esign.obj"
+".\release\files.obj"
+".\release\filters.obj"
+".\release\fips140.obj"
+".\release\fipstest.obj"
+".\release\gcm.obj"
+".\release\gf256.obj"
+".\release\gf2_32.obj"
+".\release\gf2n.obj"
+".\release\gfpcrypt.obj"
+".\release\gost.obj"
+".\release\gzip.obj"
+".\release\hex.obj"
+".\release\hmac.obj"
+".\release\hrtimer.obj"
+".\release\ida.obj"
+".\release\idea.obj"
+".\release\integer.obj"
+".\release\iterhash.obj"
+".\release\luc.obj"
+".\release\mars.obj"
+".\release\marss.obj"
+".\release\md2.obj"
+".\release\md4.obj"
+".\release\md5.obj"
+".\release\misc.obj"
+".\release\modes.obj"
+".\release\mqueue.obj"
+".\release\mqv.obj"
+".\release\nbtheory.obj"
+".\release\network.obj"
+".\release\oaep.obj"
+".\release\osrng.obj"
+".\release\panama.obj"
+".\release\pch.obj"
+".\release\pkcspad.obj"
+".\release\polynomi.obj"
+".\release\pssr.obj"
+".\release\pubkey.obj"
+".\release\queue.obj"
+".\release\rabin.obj"
+".\release\randpool.obj"
+".\release\rc2.obj"
+".\release\rc5.obj"
+".\release\rc6.obj"
+".\release\rdtables.obj"
+".\release\rijndael.obj"
+".\release\ripemd.obj"
+".\release\rng.obj"
+".\release\rsa.obj"
+".\release\rw.obj"
+".\release\safer.obj"
+".\release\salsa.obj"
+".\release\seal.obj"
+".\release\seed.obj"
+".\release\serpent.obj"
+".\release\sha.obj"
+".\release\shacal2.obj"
+".\release\shark.obj"
+".\release\sharkbox.obj"
+".\release\simple.obj"
+".\release\skipjack.obj"
+".\release\socketft.obj"
+".\release\sosemanuk.obj"
+".\release\square.obj"
+".\release\squaretb.obj"
+".\release\strciphr.obj"
+".\release\tea.obj"
+".\release\tftables.obj"
+".\release\tiger.obj"
+".\release\tigertab.obj"
+".\release\trdlocal.obj"
+".\release\ttmac.obj"
+".\release\twofish.obj"
+".\release\vmac.obj"
+".\release\wait.obj"
+".\release\wake.obj"
+".\release\whrlpool.obj"
+".\release\winpipes.obj"
+".\release\xtr.obj"
+".\release\xtrcrypt.obj"
+".\release\zdeflate.obj"
+".\release\zinflate.obj"
+".\release\zlib.obj"
+]
+Creating command line "lib.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Release\RSP00000F.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Performing Custom Build Step
+Compiling...
+pch.cpp
+e:\1 GUNZ ASTRA\source Astra\sdk\cryptopp\misc.h(272) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Compiling...
+zlib.cpp
+zinflate.cpp
+zdeflate.cpp
+xtrcrypt.cpp
+xtr.cpp
+winpipes.cpp
+whrlpool.cpp
+wake.cpp
+wait.cpp
+vmac.cpp
+twofish.cpp
+ttmac.cpp
+trdlocal.cpp
+tigertab.cpp
+tiger.cpp
+tftables.cpp
+tea.cpp
+strciphr.cpp
+squaretb.cpp
+square.cpp
+Generating Code...
+Compiling...
+sosemanuk.cpp
+socketft.cpp
+skipjack.cpp
+simple.cpp
+sharkbox.cpp
+shark.cpp
+shacal2.cpp
+sha.cpp
+serpent.cpp
+seed.cpp
+seal.cpp
+salsa.cpp
+safer.cpp
+rw.cpp
+rw.cpp(143) : warning C4068: unknown pragma
+rw.cpp(144) : warning C4068: unknown pragma
+rw.cpp(146) : warning C4068: unknown pragma
+rw.cpp(148) : warning C4068: unknown pragma
+rsa.cpp
+rng.cpp
+ripemd.cpp
+rijndael.cpp
+rdtables.cpp
+rc6.cpp
+Generating Code...
+Compiling...
+rc5.cpp
+rc2.cpp
+randpool.cpp
+rabin.cpp
+queue.cpp
+pubkey.cpp
+pssr.cpp
+polynomi.cpp
+pkcspad.cpp
+panama.cpp
+osrng.cpp
+oaep.cpp
+network.cpp
+nbtheory.cpp
+nbtheory.cpp(650) : warning C4068: unknown pragma
+nbtheory.cpp(651) : warning C4068: unknown pragma
+nbtheory.cpp(653) : warning C4068: unknown pragma
+nbtheory.cpp(655) : warning C4068: unknown pragma
+nbtheory.cpp(1002) : warning C4068: unknown pragma
+nbtheory.cpp(1003) : warning C4068: unknown pragma
+nbtheory.cpp(1005) : warning C4068: unknown pragma
+nbtheory.cpp(1010) : warning C4068: unknown pragma
+mqv.cpp
+mqueue.cpp
+modes.cpp
+misc.cpp
+md5.cpp
+md4.cpp
+Generating Code...
+Compiling...
+md2.cpp
+marss.cpp
+mars.cpp
+luc.cpp
+integer.cpp
+idea.cpp
+ida.cpp
+hrtimer.cpp
+hmac.cpp
+hex.cpp
+gzip.cpp
+gost.cpp
+gfpcrypt.cpp
+gf2n.cpp
+gf2_32.cpp
+gf256.cpp
+gcm.cpp
+fipstest.cpp
+fips140.cpp
+filters.cpp
+Generating Code...
+Compiling...
+files.cpp
+esign.cpp
+eprecomp.cpp
+emsa2.cpp
+elgamal.cpp
+ecp.cpp
+eccrypto.cpp
+ec2n.cpp
+eax.cpp
+dsa.cpp
+dh2.cpp
+dh.cpp
+dessp.cpp
+des.cpp
+default.cpp
+cryptlib.cpp
+crc.cpp
+cpu.cpp
+cmac.cpp
+channels.cpp
+Generating Code...
+Compiling...
+ccm.cpp
+cbcmac.cpp
+casts.cpp
+cast.cpp
+camellia.cpp
+blumshub.cpp
+blowfish.cpp
+bfinit.cpp
+basecode.cpp
+base64.cpp
+base32.cpp
+authenc.cpp
+asn.cpp
+arc4.cpp
+algparam.cpp
+algebra.cpp
+adler32.cpp
+3way.cpp
+Generating Code...
+Compiling...
+iterhash.cpp
+e:\1 GUNZ ASTRA\source Astra\sdk\cryptopp\misc.h(272) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+dll.cpp
+e:\1 GUNZ ASTRA\source Astra\sdk\cryptopp\misc.h(272) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Generating Code...
+Creating library...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://e:\1 gunz astra\source Astra\sdk\cryptopp\Release\BuildLog.htm"
+cryptlib - 0 error(s), 15 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

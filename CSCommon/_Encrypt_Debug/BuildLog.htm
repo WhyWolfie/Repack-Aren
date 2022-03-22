@@ -1,0 +1,579 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: CSCommon, Configuration: _Encrypt_Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "e:\1 gunz astra\source Astra\CSCommon\_Encrypt_Debug\RSP000011.rsp" with contents
+[
+/Od /I "." /I "Include" /I "../SafeUDP/Include" /I "../CML/Include" /I "../RealSpace2/Include" /I "../MAI/Include" /I "../sdk/dx9/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /D "WIN32" /D "_DEBUG" /D "_LIB" /D "LOCALE_KOREA" /D "_USING_CXR" /D "_MBCS" /Gm /EHsc /RTC1 /MTd /GS /Yu"stdafx.h" /Fp"_Encrypt_Debug/CSCommonDE.pch" /Fo"_Encrypt_Debug/" /Fd"_Encrypt_Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\Source\MMatchDebug.cpp"
+".\Source\SControl.cpp"
+".\Source\MMessenger.cpp"
+".\Source\MMatchLanguageConf.cpp"
+".\Source\MLanguageConf.cpp"
+".\Source\TestCRC32XORCache.cpp"
+".\Source\MHackingTypes.cpp"
+".\MConnectHistory.cpp"
+".\Source\MMatchStringResManager.cpp"
+".\Source\MBaseStringResManager.cpp"
+".\Source\MNJ_DBAgentClient.cpp"
+".\Source\MMatchLocale.cpp"
+".\Source\MBaseLocale.cpp"
+".\Source\MXmlParser.cpp"
+".\Source\MCommandCommunicator.cpp"
+".\Source\MAsyncProxy.cpp"
+".\Source\MAsyncDBJob_WinTheClanGame.cpp"
+".\Source\MAsyncDBJob_UpdateCharItemInfoData.cpp"
+".\Source\MAsyncDBJob_UpdateCharInfoData.cpp"
+".\Source\MAsyncDBJob_UpdateCharBRInfo.cpp"
+".\Source\MAsyncDBJob_SurvivalMode.cpp"
+".\Source\MAsyncDBJob_RewardCharBR.cpp"
+".\Source\MAsyncDBJob_InsertGamePlayerLog.cpp"
+".\Source\MAsyncDBJob_InsertConnLog.cpp"
+".\Source\MAsyncDBJob_InsertCharBRInfo.cpp"
+".\Source\MAsyncDBJob_GetLoginInfo.cpp"
+".\Source\MAsyncDBJob_GetBRDescription.cpp"
+".\MAsyncDBJob_GetAccountItemList.cpp"
+".\Source\MAsyncDBJob_FriendList.cpp"
+".\Source\MAsyncDBJob_Event.cpp"
+".\Source\MAsyncDBJob_DuelTournament.cpp"
+".\Source\MAsyncDBJob_CountryFilter.cpp"
+".\Source\MAsyncDBJob_CharFinalize.cpp"
+".\Source\MAsyncDBJob_BuyQuestItem.cpp"
+".\Source\MAsyncDBJob.cpp"
+".\Source\MMatchConfig.cpp"
+".\Source\MMatchEventManager.cpp"
+".\MMatchEventFactory.cpp"
+".\Source\MMatchEvent.cpp"
+".\MMatchServer_Survival.cpp"
+".\Source\MMatchServer_Stage.cpp"
+".\Source\MMatchServer_Quest.cpp"
+".\Source\MMatchServer_OnCommand.cpp"
+".\Source\MMatchServer_Login.cpp"
+".\Source\MMatchServer_Ladder.cpp"
+".\Source\MMatchServer_Item.cpp"
+".\Source\MMatchServer_DuelTournament.cpp"
+".\Source\MMatchServer_Clan.cpp"
+".\Source\MMatchServer_Char.cpp"
+".\Source\MMatchServer_Channel.cpp"
+".\Source\MMatchServer_Async.cpp"
+".\MMatchServer_AntiHack.cpp"
+".\Source\MMatchServer_Agent.cpp"
+".\Source\MMatchServer_Admin.cpp"
+".\Source\MMatchServer.cpp"
+".\Source\MVoteMgr.cpp"
+".\Source\MVoteDiscussImpl.cpp"
+".\Source\MSmartRefreshImpl.cpp"
+".\Source\MMatchUtil.cpp"
+".\Source\MMatchTransDataType.cpp"
+".\Source\MMatchStatus.cpp"
+".\Source\MMatchShutdown.cpp"
+".\Source\MMatchShop.cpp"
+".\Source\MMatchSchedule.cpp"
+".\Source\MMatchPremiumIPCache.cpp"
+".\Source\MMatchNotify.cpp"
+".\Source\MMatchGlobal.cpp"
+".\Source\MMatchFriendInfo.cpp"
+".\Source\MMatchClan.cpp"
+".\Source\MMatchCheckLoopTime.cpp"
+".\Source\MMatchChatRoom.cpp"
+".\Source\MMatchChannel.cpp"
+".\Source\MMatchAdmin.cpp"
+".\Source\MMatchDBFilter.cpp"
+".\Source\MMatchDBMgr_AccountItem.cpp"
+".\Source\MMatchDBMgr.cpp"
+".\Source\MMatchCharBRInfo.cpp"
+".\Source\MMatchBRMachine.cpp"
+".\Source\MMatchAccountPenaltyInfo.cpp"
+".\Source\MMatchBuffSummary.cpp"
+".\Source\MMatchBuff.cpp"
+".\Source\MMatchGambleMachine.cpp"
+".\Source\MMatchGambleItem.cpp"
+".\Source\MMatchDBGambleItem.cpp"
+".\Source\MMatchItemFunction.cpp"
+".\Source\MMatchItem.cpp"
+".\MMatchObjectCommandHistory.cpp"
+".\Source\MMatchObjectCharBuffInfo.cpp"
+".\Source\MMatchObject.cpp"
+".\Source\MMatchObjCache.cpp"
+".\Source\MMatchHShield.cpp"
+".\Source\MMatchAntiHack.cpp"
+".\Source\MAgentObject.cpp"
+".\Source\MDuelTournamentFormula.cpp"
+".\Source\MMatchRuleDuelTournament.cpp"
+".\Source\MDuelTournamentTimeChecker.cpp"
+".\Source\MDuelTournamentTicketPicker.cpp"
+".\Source\MDuelTournamentMatchMaker.cpp"
+".\Source\MMatchDuelTournamentMgr.cpp"
+".\Source\MMatchRuleSurvival.cpp"
+".\Source\MMatchRuleQuest.cpp"
+".\Source\MMatchRuleBaseQuest.cpp"
+".\Source\MMatchRuleTraining.cpp"
+".\Source\MMatchRuleGladiator.cpp"
+".\Source\MMatchRuleDuel.cpp"
+".\Source\MMatchRuleDeathMatch.cpp"
+".\Source\MMatchRuleBerserker.cpp"
+".\Source\MMatchRuleAssassinate.cpp"
+".\Source\MMatchRule.cpp"
+".\Source\MMatchGameType.cpp"
+".\Source\MBaseGameType.cpp"
+".\Source\MSurvivalMap.cpp"
+".\Source\MQuestScenario.cpp"
+".\Source\MQuestNPC.cpp"
+".\Source\MQuestMap.cpp"
+".\Source\MBaseQuest.cpp"
+".\Source\MSurvivalRankInfo.cpp"
+".\Source\MSacrificeQItemTable.cpp"
+".\Source\MQuestPlayer.cpp"
+".\Source\MQuestNPCSpawnTrigger.cpp"
+".\Source\MQuestLevelGenerator.cpp"
+".\Source\MQuestLevel.cpp"
+".\Source\MQuestItem.cpp"
+".\Source\MQuestFormula.cpp"
+".\Source\MQuestDropTable.cpp"
+".\Source\MMatchSurvivalGameLog.cpp"
+".\Source\MMatchQuestRound.cpp"
+".\Source\MMatchQuestMonsterGroup.cpp"
+".\Source\MMatchQuestGameLog.cpp"
+".\Source\MMatchQuest.cpp"
+".\Source\MMatchNPCObject.cpp"
+".\Source\MMatchWorldItemDesc.cpp"
+".\Source\MMatchWorldItem.cpp"
+".\Source\MMatchStageSetting.cpp"
+".\Source\MMatchStage.cpp"
+".\Source\MMatchMap.cpp"
+".\Source\MMatchFormula.cpp"
+".\Source\MMatchChannelRule.cpp"
+".\Source\MMatchActiveTrapMgr.cpp"
+".\Source\MBaseChannelRule.cpp"
+".\Source\MTeamGameStrategy.cpp"
+".\Source\MLadderStatistics.cpp"
+".\Source\MLadderPicker.cpp"
+".\Source\MLadderMgr.cpp"
+".\Source\MPacketHShieldCrypter.cpp"
+".\Source\MPacketCrypter.cpp"
+".\Source\MPacket.cpp"
+".\Source\RealCPNet.cpp"
+".\Source\MServer.cpp"
+".\Source\MTCPSocket.cpp"
+".\Source\MMatchClient.cpp"
+".\Source\MCustomClient.cpp"
+".\Source\MClient.cpp"
+".\Source\MChattingFilter.cpp"
+".\Source\MMaster.cpp"
+".\Source\MSharedCommandTable.cpp"
+".\Source\MObject.cpp"
+".\Source\MUID.cpp"
+".\Source\MGridMap.cpp"
+".\Source\MCommandProfiler.cpp"
+".\Source\MCommandParameter.cpp"
+".\Source\MCommandManager.cpp"
+".\Source\MCommandBuilder.cpp"
+".\Source\MCommand.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\CSCommon\_Encrypt_Debug\RSP000011.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\CSCommon\_Encrypt_Debug\RSP000012.rsp" with contents
+[
+/Od /I "." /I "Include" /I "../SafeUDP/Include" /I "../CML/Include" /I "../RealSpace2/Include" /I "../MAI/Include" /I "../sdk/dx9/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /D "WIN32" /D "_DEBUG" /D "_LIB" /D "LOCALE_KOREA" /D "_USING_CXR" /D "_MBCS" /Gm /EHsc /RTC1 /MTd /GS /Yc"stdafx.h" /Fp"_Encrypt_Debug/CSCommonDE.pch" /Fo"_Encrypt_Debug/" /Fd"_Encrypt_Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\Source\stdafx.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\CSCommon\_Encrypt_Debug\RSP000012.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\CSCommon\_Encrypt_Debug\RSP000013.rsp" with contents
+[
+/OUT:"Lib/CSCommonDE.lib" /NOLOGO /NODEFAULTLIB /y3 "\1 gunz astra\source Astra\StringLiteral\Debug\StringLiteral.lib"
+".\HShield\HsCryptLib.lib"
+".\_Encrypt_Debug\MCommand.obj"
+".\_Encrypt_Debug\MCommandBuilder.obj"
+".\_Encrypt_Debug\MCommandManager.obj"
+".\_Encrypt_Debug\MCommandParameter.obj"
+".\_Encrypt_Debug\MCommandProfiler.obj"
+".\_Encrypt_Debug\MGridMap.obj"
+".\_Encrypt_Debug\MUID.obj"
+".\_Encrypt_Debug\MObject.obj"
+".\_Encrypt_Debug\MSharedCommandTable.obj"
+".\_Encrypt_Debug\MMaster.obj"
+".\_Encrypt_Debug\MChattingFilter.obj"
+".\_Encrypt_Debug\MClient.obj"
+".\_Encrypt_Debug\MCustomClient.obj"
+".\_Encrypt_Debug\MMatchClient.obj"
+".\_Encrypt_Debug\MTCPSocket.obj"
+".\_Encrypt_Debug\MServer.obj"
+".\_Encrypt_Debug\RealCPNet.obj"
+".\_Encrypt_Debug\MPacket.obj"
+".\_Encrypt_Debug\MPacketCrypter.obj"
+".\_Encrypt_Debug\MPacketHShieldCrypter.obj"
+".\_Encrypt_Debug\MLadderMgr.obj"
+".\_Encrypt_Debug\MLadderPicker.obj"
+".\_Encrypt_Debug\MLadderStatistics.obj"
+".\_Encrypt_Debug\MTeamGameStrategy.obj"
+".\_Encrypt_Debug\MBaseChannelRule.obj"
+".\_Encrypt_Debug\MMatchActiveTrapMgr.obj"
+".\_Encrypt_Debug\MMatchChannelRule.obj"
+".\_Encrypt_Debug\MMatchFormula.obj"
+".\_Encrypt_Debug\MMatchMap.obj"
+".\_Encrypt_Debug\MMatchStage.obj"
+".\_Encrypt_Debug\MMatchStageSetting.obj"
+".\_Encrypt_Debug\MMatchWorldItem.obj"
+".\_Encrypt_Debug\MMatchWorldItemDesc.obj"
+".\_Encrypt_Debug\MMatchNPCObject.obj"
+".\_Encrypt_Debug\MMatchQuest.obj"
+".\_Encrypt_Debug\MMatchQuestGameLog.obj"
+".\_Encrypt_Debug\MMatchQuestMonsterGroup.obj"
+".\_Encrypt_Debug\MMatchQuestRound.obj"
+".\_Encrypt_Debug\MMatchSurvivalGameLog.obj"
+".\_Encrypt_Debug\MQuestDropTable.obj"
+".\_Encrypt_Debug\MQuestFormula.obj"
+".\_Encrypt_Debug\MQuestItem.obj"
+".\_Encrypt_Debug\MQuestLevel.obj"
+".\_Encrypt_Debug\MQuestLevelGenerator.obj"
+".\_Encrypt_Debug\MQuestNPCSpawnTrigger.obj"
+".\_Encrypt_Debug\MQuestPlayer.obj"
+".\_Encrypt_Debug\MSacrificeQItemTable.obj"
+".\_Encrypt_Debug\MSurvivalRankInfo.obj"
+".\_Encrypt_Debug\MBaseQuest.obj"
+".\_Encrypt_Debug\MQuestMap.obj"
+".\_Encrypt_Debug\MQuestNPC.obj"
+".\_Encrypt_Debug\MQuestScenario.obj"
+".\_Encrypt_Debug\MSurvivalMap.obj"
+".\_Encrypt_Debug\MBaseGameType.obj"
+".\_Encrypt_Debug\MMatchGameType.obj"
+".\_Encrypt_Debug\MMatchRule.obj"
+".\_Encrypt_Debug\MMatchRuleAssassinate.obj"
+".\_Encrypt_Debug\MMatchRuleBerserker.obj"
+".\_Encrypt_Debug\MMatchRuleDeathMatch.obj"
+".\_Encrypt_Debug\MMatchRuleDuel.obj"
+".\_Encrypt_Debug\MMatchRuleGladiator.obj"
+".\_Encrypt_Debug\MMatchRuleTraining.obj"
+".\_Encrypt_Debug\MMatchRuleBaseQuest.obj"
+".\_Encrypt_Debug\MMatchRuleQuest.obj"
+".\_Encrypt_Debug\MMatchRuleSurvival.obj"
+".\_Encrypt_Debug\MMatchDuelTournamentMgr.obj"
+".\_Encrypt_Debug\MDuelTournamentMatchMaker.obj"
+".\_Encrypt_Debug\MDuelTournamentTicketPicker.obj"
+".\_Encrypt_Debug\MDuelTournamentTimeChecker.obj"
+".\_Encrypt_Debug\MMatchRuleDuelTournament.obj"
+".\_Encrypt_Debug\MDuelTournamentFormula.obj"
+".\_Encrypt_Debug\MAgentObject.obj"
+".\_Encrypt_Debug\MMatchAntiHack.obj"
+".\_Encrypt_Debug\MMatchHShield.obj"
+".\_Encrypt_Debug\MMatchObjCache.obj"
+".\_Encrypt_Debug\MMatchObject.obj"
+".\_Encrypt_Debug\MMatchObjectCharBuffInfo.obj"
+".\_Encrypt_Debug\MMatchObjectCommandHistory.obj"
+".\_Encrypt_Debug\MMatchItem.obj"
+".\_Encrypt_Debug\MMatchItemFunction.obj"
+".\_Encrypt_Debug\MMatchDBGambleItem.obj"
+".\_Encrypt_Debug\MMatchGambleItem.obj"
+".\_Encrypt_Debug\MMatchGambleMachine.obj"
+".\_Encrypt_Debug\MMatchBuff.obj"
+".\_Encrypt_Debug\MMatchBuffSummary.obj"
+".\_Encrypt_Debug\MMatchAccountPenaltyInfo.obj"
+".\_Encrypt_Debug\MMatchBRMachine.obj"
+".\_Encrypt_Debug\MMatchCharBRInfo.obj"
+".\_Encrypt_Debug\MMatchDBMgr.obj"
+".\_Encrypt_Debug\MMatchDBMgr_AccountItem.obj"
+".\_Encrypt_Debug\MMatchDBFilter.obj"
+".\_Encrypt_Debug\MMatchAdmin.obj"
+".\_Encrypt_Debug\MMatchChannel.obj"
+".\_Encrypt_Debug\MMatchChatRoom.obj"
+".\_Encrypt_Debug\MMatchCheckLoopTime.obj"
+".\_Encrypt_Debug\MMatchClan.obj"
+".\_Encrypt_Debug\MMatchFriendInfo.obj"
+".\_Encrypt_Debug\MMatchGlobal.obj"
+".\_Encrypt_Debug\MMatchNotify.obj"
+".\_Encrypt_Debug\MMatchPremiumIPCache.obj"
+".\_Encrypt_Debug\MMatchSchedule.obj"
+".\_Encrypt_Debug\MMatchShop.obj"
+".\_Encrypt_Debug\MMatchShutdown.obj"
+".\_Encrypt_Debug\MMatchStatus.obj"
+".\_Encrypt_Debug\MMatchTransDataType.obj"
+".\_Encrypt_Debug\MMatchUtil.obj"
+".\_Encrypt_Debug\MSmartRefreshImpl.obj"
+".\_Encrypt_Debug\MVoteDiscussImpl.obj"
+".\_Encrypt_Debug\MVoteMgr.obj"
+".\_Encrypt_Debug\MMatchServer.obj"
+".\_Encrypt_Debug\MMatchServer_Admin.obj"
+".\_Encrypt_Debug\MMatchServer_Agent.obj"
+".\_Encrypt_Debug\MMatchServer_AntiHack.obj"
+".\_Encrypt_Debug\MMatchServer_Async.obj"
+".\_Encrypt_Debug\MMatchServer_Channel.obj"
+".\_Encrypt_Debug\MMatchServer_Char.obj"
+".\_Encrypt_Debug\MMatchServer_Clan.obj"
+".\_Encrypt_Debug\MMatchServer_DuelTournament.obj"
+".\_Encrypt_Debug\MMatchServer_Item.obj"
+".\_Encrypt_Debug\MMatchServer_Ladder.obj"
+".\_Encrypt_Debug\MMatchServer_Login.obj"
+".\_Encrypt_Debug\MMatchServer_OnCommand.obj"
+".\_Encrypt_Debug\MMatchServer_Quest.obj"
+".\_Encrypt_Debug\MMatchServer_Stage.obj"
+".\_Encrypt_Debug\MMatchServer_Survival.obj"
+".\_Encrypt_Debug\MMatchEvent.obj"
+".\_Encrypt_Debug\MMatchEventFactory.obj"
+".\_Encrypt_Debug\MMatchEventManager.obj"
+".\_Encrypt_Debug\MMatchConfig.obj"
+".\_Encrypt_Debug\MAsyncDBJob.obj"
+".\_Encrypt_Debug\MAsyncDBJob_BuyQuestItem.obj"
+".\_Encrypt_Debug\MAsyncDBJob_CharFinalize.obj"
+".\_Encrypt_Debug\MAsyncDBJob_CountryFilter.obj"
+".\_Encrypt_Debug\MAsyncDBJob_DuelTournament.obj"
+".\_Encrypt_Debug\MAsyncDBJob_Event.obj"
+".\_Encrypt_Debug\MAsyncDBJob_FriendList.obj"
+".\_Encrypt_Debug\MAsyncDBJob_GetAccountItemList.obj"
+".\_Encrypt_Debug\MAsyncDBJob_GetBRDescription.obj"
+".\_Encrypt_Debug\MAsyncDBJob_GetLoginInfo.obj"
+".\_Encrypt_Debug\MAsyncDBJob_InsertCharBRInfo.obj"
+".\_Encrypt_Debug\MAsyncDBJob_InsertConnLog.obj"
+".\_Encrypt_Debug\MAsyncDBJob_InsertGamePlayerLog.obj"
+".\_Encrypt_Debug\MAsyncDBJob_RewardCharBR.obj"
+".\_Encrypt_Debug\MAsyncDBJob_SurvivalMode.obj"
+".\_Encrypt_Debug\MAsyncDBJob_UpdateCharBRInfo.obj"
+".\_Encrypt_Debug\MAsyncDBJob_UpdateCharInfoData.obj"
+".\_Encrypt_Debug\MAsyncDBJob_UpdateCharItemInfoData.obj"
+".\_Encrypt_Debug\MAsyncDBJob_WinTheClanGame.obj"
+".\_Encrypt_Debug\MAsyncProxy.obj"
+".\_Encrypt_Debug\MCommandCommunicator.obj"
+".\_Encrypt_Debug\MXmlParser.obj"
+".\_Encrypt_Debug\MBaseLocale.obj"
+".\_Encrypt_Debug\MMatchLocale.obj"
+".\_Encrypt_Debug\MNJ_DBAgentClient.obj"
+".\_Encrypt_Debug\MBaseStringResManager.obj"
+".\_Encrypt_Debug\MMatchStringResManager.obj"
+".\_Encrypt_Debug\MConnectHistory.obj"
+".\_Encrypt_Debug\MHackingTypes.obj"
+".\_Encrypt_Debug\TestCRC32XORCache.obj"
+".\_Encrypt_Debug\MLanguageConf.obj"
+".\_Encrypt_Debug\MMatchLanguageConf.obj"
+".\_Encrypt_Debug\MMessenger.obj"
+".\_Encrypt_Debug\SControl.obj"
+".\_Encrypt_Debug\MMatchDebug.obj"
+".\_Encrypt_Debug\stdafx.obj"
+]
+Creating command line "lib.exe @"e:\1 gunz astra\source Astra\CSCommon\_Encrypt_Debug\RSP000013.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+MMatchDebug.cpp
+SControl.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\SControl.cpp(112) : warning C4101: 'e' : unreferenced local variable
+MMessenger.cpp
+MMatchLanguageConf.cpp
+MLanguageConf.cpp
+TestCRC32XORCache.cpp
+MHackingTypes.cpp
+MConnectHistory.cpp
+MMatchStringResManager.cpp
+MBaseStringResManager.cpp
+MNJ_DBAgentClient.cpp
+MMatchLocale.cpp
+MBaseLocale.cpp
+MXmlParser.cpp
+MCommandCommunicator.cpp
+MAsyncProxy.cpp
+MAsyncDBJob_WinTheClanGame.cpp
+MAsyncDBJob_UpdateCharItemInfoData.cpp
+MAsyncDBJob_UpdateCharInfoData.cpp
+MAsyncDBJob_UpdateCharBRInfo.cpp
+Generating Code...
+Compiling...
+MAsyncDBJob_SurvivalMode.cpp
+MAsyncDBJob_RewardCharBR.cpp
+MAsyncDBJob_InsertGamePlayerLog.cpp
+MAsyncDBJob_InsertConnLog.cpp
+MAsyncDBJob_InsertCharBRInfo.cpp
+MAsyncDBJob_GetLoginInfo.cpp
+MAsyncDBJob_GetBRDescription.cpp
+MAsyncDBJob_GetAccountItemList.cpp
+MAsyncDBJob_FriendList.cpp
+MAsyncDBJob_Event.cpp
+MAsyncDBJob_DuelTournament.cpp
+MAsyncDBJob_CountryFilter.cpp
+MAsyncDBJob_CharFinalize.cpp
+MAsyncDBJob_BuyQuestItem.cpp
+MAsyncDBJob.cpp
+MMatchConfig.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MMatchConfig.cpp(258) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MMatchConfig.cpp(311) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MMatchConfig.cpp(315) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchEventManager.cpp
+MMatchEventFactory.cpp
+MMatchEvent.cpp
+MMatchServer_Survival.cpp
+Generating Code...
+Compiling...
+MMatchServer_Stage.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchServer_Quest.cpp
+MMatchServer_OnCommand.cpp
+MMatchServer_Login.cpp
+MMatchServer_Ladder.cpp
+MMatchServer_Item.cpp
+MMatchServer_DuelTournament.cpp
+MMatchServer_Clan.cpp
+MMatchServer_Char.cpp
+MMatchServer_Channel.cpp
+MMatchServer_Async.cpp
+MMatchServer_AntiHack.cpp
+MMatchServer_Agent.cpp
+MMatchServer_Admin.cpp
+MMatchServer.cpp
+MVoteMgr.cpp
+MVoteDiscussImpl.cpp
+MSmartRefreshImpl.cpp
+MMatchUtil.cpp
+MMatchTransDataType.cpp
+Generating Code...
+Compiling...
+MMatchStatus.cpp
+MMatchShutdown.cpp
+MMatchShop.cpp
+MMatchSchedule.cpp
+MMatchPremiumIPCache.cpp
+MMatchNotify.cpp
+MMatchGlobal.cpp
+MMatchFriendInfo.cpp
+MMatchClan.cpp
+MMatchCheckLoopTime.cpp
+MMatchChatRoom.cpp
+MMatchChannel.cpp
+MMatchAdmin.cpp
+MMatchDBFilter.cpp
+MMatchDBMgr_AccountItem.cpp
+MMatchDBMgr.cpp
+MMatchCharBRInfo.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MMatchCharBRInfo.cpp(65) : warning C4018: '>' : signed/unsigned mismatch
+MMatchBRMachine.cpp
+MMatchAccountPenaltyInfo.cpp
+MMatchBuffSummary.cpp
+Generating Code...
+Compiling...
+MMatchBuff.cpp
+MMatchGambleMachine.cpp
+MMatchGambleItem.cpp
+MMatchDBGambleItem.cpp
+MMatchItemFunction.cpp
+MMatchItem.cpp
+MMatchObjectCommandHistory.cpp
+MMatchObjectCharBuffInfo.cpp
+MMatchObject.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MMatchObject.cpp(635) : warning C4018: '>' : signed/unsigned mismatch
+MMatchObjCache.cpp
+MMatchHShield.cpp
+MMatchAntiHack.cpp
+MAgentObject.cpp
+MDuelTournamentFormula.cpp
+MMatchRuleDuelTournament.cpp
+MDuelTournamentTimeChecker.cpp
+MDuelTournamentTicketPicker.cpp
+MDuelTournamentMatchMaker.cpp
+MMatchDuelTournamentMgr.cpp
+MMatchRuleSurvival.cpp
+Generating Code...
+Compiling...
+MMatchRuleQuest.cpp
+MMatchRuleBaseQuest.cpp
+MMatchRuleTraining.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleGladiator.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleDuel.cpp
+MMatchRuleDeathMatch.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleBerserker.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleAssassinate.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRule.cpp
+MMatchGameType.cpp
+MBaseGameType.cpp
+MSurvivalMap.cpp
+MQuestScenario.cpp
+MQuestNPC.cpp
+MQuestMap.cpp
+MBaseQuest.cpp
+MSurvivalRankInfo.cpp
+MSacrificeQItemTable.cpp
+MQuestPlayer.cpp
+MQuestNPCSpawnTrigger.cpp
+Generating Code...
+Compiling...
+MQuestLevelGenerator.cpp
+MQuestLevel.cpp
+MQuestItem.cpp
+MQuestFormula.cpp
+MQuestDropTable.cpp
+MMatchSurvivalGameLog.cpp
+MMatchQuestRound.cpp
+MMatchQuestMonsterGroup.cpp
+MMatchQuestGameLog.cpp
+MMatchQuest.cpp
+MMatchNPCObject.cpp
+MMatchWorldItemDesc.cpp
+MMatchWorldItem.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchStageSetting.cpp
+MMatchStage.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(94) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Include\MMatchRuleDeathMatch.h(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchMap.cpp
+MMatchFormula.cpp
+MMatchChannelRule.cpp
+MMatchActiveTrapMgr.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MMatchActiveTrapMgr.cpp(114) : warning C4018: '>' : signed/unsigned mismatch
+MBaseChannelRule.cpp
+Generating Code...
+Compiling...
+MTeamGameStrategy.cpp
+MLadderStatistics.cpp
+MLadderPicker.cpp
+MLadderMgr.cpp
+MPacketHShieldCrypter.cpp
+MPacketCrypter.cpp
+MPacket.cpp
+RealCPNet.cpp
+MServer.cpp
+MTCPSocket.cpp
+MMatchClient.cpp
+MCustomClient.cpp
+MClient.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MClient.cpp(108) : warning C4101: 'szMessage' : unreferenced local variable
+MChattingFilter.cpp
+MMaster.cpp
+MSharedCommandTable.cpp
+MObject.cpp
+MUID.cpp
+MGridMap.cpp
+MCommandProfiler.cpp
+Generating Code...
+Compiling...
+MCommandParameter.cpp
+e:\1 GUNZ ASTRA\source Astra\CSCommon\Source\MCommandParameter.cpp(401) : warning C4018: '>' : signed/unsigned mismatch
+MCommandManager.cpp
+MCommandBuilder.cpp
+MCommand.cpp
+Generating Code...
+Creating library...
+LIB : warning LNK4044: unrecognized option '/y3'; ignored
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://e:\1 gunz astra\source Astra\CSCommon\_Encrypt_Debug\BuildLog.htm"
+CSCommon - 0 error(s), 26 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

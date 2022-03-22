@@ -1,0 +1,450 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: cryptlib, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\BAT000001.bat" with contents
+[
+@echo off
+if not exist adhoc.cpp copy "e:\1 gunz astra\source Astra\sdk\cryptopp\adhoc.cpp.proto" adhoc.cpp
+echo: >> adhoc.cpp.copied
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Custom Build Step"
+exit 1
+:VCEnd
+]
+Creating command line ""e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\BAT000001.bat""
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000002.rsp" with contents
+[
+/Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /FD /EHsc /MTd /GS /GR /Yu"pch.h" /Fp".\Debug/cryptlib.pch" /Fo".\Debug/" /Fd".\Debug/" /W3 /c /Zi /TP  /Zm400 
+".\zlib.cpp"
+".\zinflate.cpp"
+".\zdeflate.cpp"
+".\xtrcrypt.cpp"
+".\xtr.cpp"
+".\winpipes.cpp"
+".\whrlpool.cpp"
+".\wake.cpp"
+".\wait.cpp"
+".\vmac.cpp"
+".\twofish.cpp"
+".\ttmac.cpp"
+".\trdlocal.cpp"
+".\tigertab.cpp"
+".\tiger.cpp"
+".\tftables.cpp"
+".\tea.cpp"
+".\strciphr.cpp"
+".\squaretb.cpp"
+".\square.cpp"
+".\sosemanuk.cpp"
+".\socketft.cpp"
+".\skipjack.cpp"
+".\simple.cpp"
+".\sharkbox.cpp"
+".\shark.cpp"
+".\shacal2.cpp"
+".\sha.cpp"
+".\serpent.cpp"
+".\seed.cpp"
+".\seal.cpp"
+".\salsa.cpp"
+".\safer.cpp"
+".\rw.cpp"
+".\rsa.cpp"
+".\rng.cpp"
+".\ripemd.cpp"
+".\rijndael.cpp"
+".\rdtables.cpp"
+".\rc6.cpp"
+".\rc5.cpp"
+".\rc2.cpp"
+".\randpool.cpp"
+".\rabin.cpp"
+".\queue.cpp"
+".\pubkey.cpp"
+".\pssr.cpp"
+".\polynomi.cpp"
+".\pkcspad.cpp"
+".\panama.cpp"
+".\osrng.cpp"
+".\oaep.cpp"
+".\network.cpp"
+".\nbtheory.cpp"
+".\mqv.cpp"
+".\mqueue.cpp"
+".\modes.cpp"
+".\misc.cpp"
+".\md5.cpp"
+".\md4.cpp"
+".\md2.cpp"
+".\marss.cpp"
+".\mars.cpp"
+".\luc.cpp"
+".\integer.cpp"
+".\idea.cpp"
+".\ida.cpp"
+".\hrtimer.cpp"
+".\hmac.cpp"
+".\hex.cpp"
+".\gzip.cpp"
+".\gost.cpp"
+".\gfpcrypt.cpp"
+".\gf2n.cpp"
+".\gf2_32.cpp"
+".\gf256.cpp"
+".\gcm.cpp"
+".\fipstest.cpp"
+".\fips140.cpp"
+".\filters.cpp"
+".\files.cpp"
+".\esign.cpp"
+".\eprecomp.cpp"
+".\emsa2.cpp"
+".\elgamal.cpp"
+".\ecp.cpp"
+".\eccrypto.cpp"
+".\ec2n.cpp"
+".\eax.cpp"
+".\dsa.cpp"
+".\dh2.cpp"
+".\dh.cpp"
+".\dessp.cpp"
+".\des.cpp"
+".\default.cpp"
+".\cryptlib.cpp"
+".\crc.cpp"
+".\cpu.cpp"
+".\cmac.cpp"
+".\channels.cpp"
+".\ccm.cpp"
+".\cbcmac.cpp"
+".\casts.cpp"
+".\cast.cpp"
+".\camellia.cpp"
+".\blumshub.cpp"
+".\blowfish.cpp"
+".\bfinit.cpp"
+".\basecode.cpp"
+".\base64.cpp"
+".\base32.cpp"
+".\authenc.cpp"
+".\asn.cpp"
+".\arc4.cpp"
+".\algparam.cpp"
+".\algebra.cpp"
+".\adler32.cpp"
+".\3way.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000002.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000003.rsp" with contents
+[
+/Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /FD /EHsc /MTd /GS /GR /Yc"pch.h" /Fp".\Debug/cryptlib.pch" /Fo".\Debug/" /Fd".\Debug/" /W3 /c /Zi /TP  /Zm400 
+".\pch.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000003.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000004.rsp" with contents
+[
+/Oi /D "_DEBUG" /D "_WINDOWS" /D "USE_PRECOMPILED_HEADERS" /D "WIN32" /FD /EHsc /MTd /GS /GR /Fp".\Debug/cryptlib.pch" /Fo".\Debug/" /Fd".\Debug/" /W3 /c /Zi /TP  /Zm400 
+".\iterhash.cpp"
+".\dll.cpp"
+]
+Creating command line "cl.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000004.rsp" /nologo"
+Creating temporary file "e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000005.rsp" with contents
+[
+/OUT:".\Debug\cryptlib.lib" /NOLOGO
+".\debug\3way.obj"
+".\debug\adler32.obj"
+".\debug\algebra.obj"
+".\debug\algparam.obj"
+".\debug\arc4.obj"
+".\debug\asn.obj"
+".\debug\authenc.obj"
+".\debug\base32.obj"
+".\debug\base64.obj"
+".\debug\basecode.obj"
+".\debug\bfinit.obj"
+".\debug\blowfish.obj"
+".\debug\blumshub.obj"
+".\debug\camellia.obj"
+".\debug\cast.obj"
+".\debug\casts.obj"
+".\debug\cbcmac.obj"
+".\debug\ccm.obj"
+".\debug\channels.obj"
+".\debug\cmac.obj"
+".\debug\cpu.obj"
+".\debug\crc.obj"
+".\debug\cryptlib.obj"
+".\debug\default.obj"
+".\debug\des.obj"
+".\debug\dessp.obj"
+".\debug\dh.obj"
+".\debug\dh2.obj"
+".\debug\dll.obj"
+".\debug\dsa.obj"
+".\debug\eax.obj"
+".\debug\ec2n.obj"
+".\debug\eccrypto.obj"
+".\debug\ecp.obj"
+".\debug\elgamal.obj"
+".\debug\emsa2.obj"
+".\debug\eprecomp.obj"
+".\debug\esign.obj"
+".\debug\files.obj"
+".\debug\filters.obj"
+".\debug\fips140.obj"
+".\debug\fipstest.obj"
+".\debug\gcm.obj"
+".\debug\gf256.obj"
+".\debug\gf2_32.obj"
+".\debug\gf2n.obj"
+".\debug\gfpcrypt.obj"
+".\debug\gost.obj"
+".\debug\gzip.obj"
+".\debug\hex.obj"
+".\debug\hmac.obj"
+".\debug\hrtimer.obj"
+".\debug\ida.obj"
+".\debug\idea.obj"
+".\debug\integer.obj"
+".\debug\iterhash.obj"
+".\debug\luc.obj"
+".\debug\mars.obj"
+".\debug\marss.obj"
+".\debug\md2.obj"
+".\debug\md4.obj"
+".\debug\md5.obj"
+".\debug\misc.obj"
+".\debug\modes.obj"
+".\debug\mqueue.obj"
+".\debug\mqv.obj"
+".\debug\nbtheory.obj"
+".\debug\network.obj"
+".\debug\oaep.obj"
+".\debug\osrng.obj"
+".\debug\panama.obj"
+".\debug\pch.obj"
+".\debug\pkcspad.obj"
+".\debug\polynomi.obj"
+".\debug\pssr.obj"
+".\debug\pubkey.obj"
+".\debug\queue.obj"
+".\debug\rabin.obj"
+".\debug\randpool.obj"
+".\debug\rc2.obj"
+".\debug\rc5.obj"
+".\debug\rc6.obj"
+".\debug\rdtables.obj"
+".\debug\rijndael.obj"
+".\debug\ripemd.obj"
+".\debug\rng.obj"
+".\debug\rsa.obj"
+".\debug\rw.obj"
+".\debug\safer.obj"
+".\debug\salsa.obj"
+".\debug\seal.obj"
+".\debug\seed.obj"
+".\debug\serpent.obj"
+".\debug\sha.obj"
+".\debug\shacal2.obj"
+".\debug\shark.obj"
+".\debug\sharkbox.obj"
+".\debug\simple.obj"
+".\debug\skipjack.obj"
+".\debug\socketft.obj"
+".\debug\sosemanuk.obj"
+".\debug\square.obj"
+".\debug\squaretb.obj"
+".\debug\strciphr.obj"
+".\debug\tea.obj"
+".\debug\tftables.obj"
+".\debug\tiger.obj"
+".\debug\tigertab.obj"
+".\debug\trdlocal.obj"
+".\debug\ttmac.obj"
+".\debug\twofish.obj"
+".\debug\vmac.obj"
+".\debug\wait.obj"
+".\debug\wake.obj"
+".\debug\whrlpool.obj"
+".\debug\winpipes.obj"
+".\debug\xtr.obj"
+".\debug\xtrcrypt.obj"
+".\debug\zdeflate.obj"
+".\debug\zinflate.obj"
+".\debug\zlib.obj"
+]
+Creating command line "lib.exe @"e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\RSP000005.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Performing Custom Build Step
+Compiling...
+pch.cpp
+e:\1 GUNZ ASTRA\source Astra\sdk\cryptopp\misc.h(272) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Compiling...
+zlib.cpp
+zinflate.cpp
+zdeflate.cpp
+xtrcrypt.cpp
+xtr.cpp
+winpipes.cpp
+whrlpool.cpp
+wake.cpp
+wait.cpp
+vmac.cpp
+twofish.cpp
+ttmac.cpp
+trdlocal.cpp
+tigertab.cpp
+tiger.cpp
+tftables.cpp
+tea.cpp
+strciphr.cpp
+squaretb.cpp
+square.cpp
+Generating Code...
+Compiling...
+sosemanuk.cpp
+socketft.cpp
+skipjack.cpp
+simple.cpp
+sharkbox.cpp
+shark.cpp
+shacal2.cpp
+sha.cpp
+serpent.cpp
+seed.cpp
+seal.cpp
+salsa.cpp
+safer.cpp
+rw.cpp
+rw.cpp(143) : warning C4068: unknown pragma
+rw.cpp(144) : warning C4068: unknown pragma
+rw.cpp(146) : warning C4068: unknown pragma
+rw.cpp(148) : warning C4068: unknown pragma
+rsa.cpp
+rng.cpp
+ripemd.cpp
+rijndael.cpp
+rdtables.cpp
+rc6.cpp
+Generating Code...
+Compiling...
+rc5.cpp
+rc2.cpp
+randpool.cpp
+rabin.cpp
+queue.cpp
+pubkey.cpp
+pssr.cpp
+polynomi.cpp
+pkcspad.cpp
+panama.cpp
+osrng.cpp
+oaep.cpp
+network.cpp
+nbtheory.cpp
+nbtheory.cpp(650) : warning C4068: unknown pragma
+nbtheory.cpp(651) : warning C4068: unknown pragma
+nbtheory.cpp(653) : warning C4068: unknown pragma
+nbtheory.cpp(655) : warning C4068: unknown pragma
+nbtheory.cpp(1002) : warning C4068: unknown pragma
+nbtheory.cpp(1003) : warning C4068: unknown pragma
+nbtheory.cpp(1005) : warning C4068: unknown pragma
+nbtheory.cpp(1010) : warning C4068: unknown pragma
+mqv.cpp
+mqueue.cpp
+modes.cpp
+misc.cpp
+md5.cpp
+md4.cpp
+Generating Code...
+Compiling...
+md2.cpp
+marss.cpp
+mars.cpp
+luc.cpp
+integer.cpp
+idea.cpp
+ida.cpp
+hrtimer.cpp
+hmac.cpp
+hex.cpp
+gzip.cpp
+gost.cpp
+gfpcrypt.cpp
+gf2n.cpp
+gf2_32.cpp
+gf256.cpp
+gcm.cpp
+fipstest.cpp
+fips140.cpp
+filters.cpp
+Generating Code...
+Compiling...
+files.cpp
+esign.cpp
+eprecomp.cpp
+emsa2.cpp
+elgamal.cpp
+ecp.cpp
+eccrypto.cpp
+ec2n.cpp
+eax.cpp
+dsa.cpp
+dh2.cpp
+dh.cpp
+dessp.cpp
+des.cpp
+default.cpp
+cryptlib.cpp
+crc.cpp
+cpu.cpp
+cmac.cpp
+channels.cpp
+Generating Code...
+Compiling...
+ccm.cpp
+cbcmac.cpp
+casts.cpp
+cast.cpp
+camellia.cpp
+blumshub.cpp
+blowfish.cpp
+bfinit.cpp
+basecode.cpp
+base64.cpp
+base32.cpp
+authenc.cpp
+asn.cpp
+arc4.cpp
+algparam.cpp
+algebra.cpp
+adler32.cpp
+3way.cpp
+Generating Code...
+Compiling...
+iterhash.cpp
+e:\1 GUNZ ASTRA\source Astra\sdk\cryptopp\misc.h(272) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+dll.cpp
+e:\1 GUNZ ASTRA\source Astra\sdk\cryptopp\misc.h(272) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Generating Code...
+Creating library...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://e:\1 gunz astra\source Astra\sdk\cryptopp\Debug\BuildLog.htm"
+cryptlib - 0 error(s), 15 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

@@ -1,0 +1,151 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: NewApp, Configuration: Release_USA|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BAT000008.bat" with contents
+[
+@echo off
+.\res\copy_res.bat usa
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Pre-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line "e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BAT000008.bat"
+Creating temporary file "e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000009.rsp" with contents
+[
+/O2 /I "../../../cml/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "LOCALE_NHNUSA" /D "_MBCS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+.\ZUpdate.cpp
+.\ZFileTransfer.cpp
+.\ZNHNRegistInfo.cpp
+.\ZNHNModule.cpp
+.\ZNHNAuth.cpp
+.\CSound.cpp
+.\CDDBDialog.cpp
+.\CDDBButton.cpp
+.\CDDBAniBmp.cpp
+.\CDDB.cpp
+.\NewAppWarnVista.cpp
+.\NewAppUpdateConfirm.cpp
+.\NewAppUpdateCompleteDlg.cpp
+.\NewAppLicenseConfirmDlg.cpp
+.\NewAppErrorDlg.cpp
+.\NewAppDlg.cpp
+.\NewAppAboutBox.cpp
+.\NewApp.cpp
+.\Log.cpp
+.\explorer.cpp
+.\CStringTable.cpp
+.\CGLEncription.cpp
+]
+Creating command line "cl.exe @e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000009.rsp /nologo"
+Creating temporary file "e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP00000A.rsp" with contents
+[
+/O2 /I "../../../cml/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "LOCALE_NHNUSA" /D "_MBCS" /FD /EHsc /MT /Yc"stdafx.h" /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+.\StdAfx.cpp
+]
+Creating command line "cl.exe @e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP00000A.rsp /nologo"
+Creating command line "rc.exe /d "NDEBUG" /l 0x412 /fo"Release/NewApp.res" .\NewApp.rc"
+Creating temporary file "e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP00000B.rsp" with contents
+[
+/OUT:".\Runtime/GunzLauncher.exe" /INCREMENTAL:NO /NOLOGO /DELAYLOAD:"OleAcc.dll" /PDB:".\Release/GunzLauncher.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 msimg32.lib winmm.lib Version.lib DelayImp.lib \ventas\source\cml\lib\cml.lib DelayImp.lib
+\ventas\source\Gunz\nhn\HanAuthForClient.lib
+\ventas\source\Gunz\nhn\HanAuthForClientD.lib
+\ventas\source\Gunz\nhn\HanReportForClient.lib
+\ventas\source\Gunz\nhn\HanReportForClientD.lib
+.\Release\CGLEncription.obj
+.\Release\CStringTable.obj
+.\Release\explorer.obj
+.\Release\Log.obj
+.\Release\NewApp.obj
+.\Release\NewAppAboutBox.obj
+.\Release\NewAppDlg.obj
+.\Release\NewAppErrorDlg.obj
+.\Release\NewAppLicenseConfirmDlg.obj
+.\Release\NewAppUpdateCompleteDlg.obj
+.\Release\NewAppUpdateConfirm.obj
+.\Release\NewAppWarnVista.obj
+.\Release\StdAfx.obj
+.\Release\NewApp.res
+.\Release\CDDB.obj
+.\Release\CDDBAniBmp.obj
+.\Release\CDDBButton.obj
+.\Release\CDDBDialog.obj
+.\Release\CSound.obj
+.\Release\ZNHNAuth.obj
+.\Release\ZNHNModule.obj
+.\Release\ZNHNRegistInfo.obj
+.\Release\ZFileTransfer.obj
+.\Release\ZUpdate.obj
+]
+Creating command line "link.exe @e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP00000B.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Performing Pre-Build Event...
+.\res\skin_usa\animation.bmp
+.\res\skin_usa\button.bmp
+.\res\skin_usa\button_start.bmp
+.\res\skin_usa\gunz_img.bmp
+.\res\skin_usa\skin_maindlg.bmp
+.\res\skin_usa\skin_popupdlg.bmp
+6 archivo(s) copiado(s)
+.\res\skin_usa\updater.exe
+1 archivo(s) copiado(s)
+.\res\skin_usa\icon_mainframe.ico
+1 archivo(s) copiado(s)
+.\res\skin_usa\string.txt
+1 archivo(s) copiado(s)
+Compiling...
+StdAfx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+ZUpdate.cpp
+ZUpdate.cpp(521) : warning C4101: 'tmWrite' : unreferenced local variable
+ZFileTransfer.cpp
+ZNHNRegistInfo.cpp
+ZNHNModule.cpp
+ZNHNAuth.cpp
+ZNHNAuth.cpp(93) : warning C4018: '<' : signed/unsigned mismatch
+CSound.cpp
+CDDBDialog.cpp
+CDDBDialog.cpp(405) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBDialog.cpp(405) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBDialog.cpp(406) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBDialog.cpp(407) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBButton.cpp
+CDDBAniBmp.cpp
+CDDB.cpp
+NewAppWarnVista.cpp
+NewAppUpdateConfirm.cpp
+NewAppUpdateCompleteDlg.cpp
+NewAppLicenseConfirmDlg.cpp
+NewAppErrorDlg.cpp
+NewAppDlg.cpp
+NewAppAboutBox.cpp
+NewApp.cpp
+Log.cpp
+explorer.cpp
+Generating Code...
+Compiling...
+CStringTable.cpp
+CGLEncription.cpp
+Generating Code...
+Compiling resources...
+Linking...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://e:\ventas\source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BuildLog.htm"
+NewApp - 0 error(s), 6 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
